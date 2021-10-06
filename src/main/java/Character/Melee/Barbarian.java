@@ -22,7 +22,8 @@ public class Barbarian extends Melee {
 
     }
 
-    public void changeHealth() {
+
+    public void changeHealth(Character character, int amount) {
 
     }
 }

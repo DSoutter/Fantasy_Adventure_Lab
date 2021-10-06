@@ -26,4 +26,8 @@ public abstract class Magic extends Character {
     public double getCreatureHealth() {
         return creature.getHealth();
     }
+
+    public void changeHealth(Character character, int amount){
+
+    }
 }

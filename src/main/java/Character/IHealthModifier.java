@@ -2,5 +2,5 @@ package Character;
 
 public interface IHealthModifier {
 
-    void changeHealth();
+    void changeHealth(Character character, int amount);
 }

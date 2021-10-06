@@ -18,7 +18,7 @@ public abstract class Melee extends Character {
 
     }
 
-    public void changeHealth() {
+    public void changeHealth(Character character, int amount) {
 
     }
 }
