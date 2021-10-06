@@ -1,4 +1,8 @@
 package RoomTest;
 
-public class RoomTest {
-}
+import org.junit.Before;
+import org.junit.Test;
+
+import static org.junit.Assert.assertEquals;
+
+
