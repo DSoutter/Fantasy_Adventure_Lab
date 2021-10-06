@@ -6,21 +6,21 @@ import java.util.ArrayList;
 
 public abstract class Magic extends Character {
 
-    private ArrayList<Spells> spells;
+    private ArrayList<Spells> spellsArrayList;
     private Creature creature;
 
-    public Magic(String name, double health, Spells spells, Creature creature) {
+    public Magic(String name, double health, ArrayList<Spells> spellsArrayList, Creature creature) {
         super(name, health);
-        this.spells = new ArrayList<>();
+        this.spellsArrayList = spellsArrayList;
         this.creature = creature;
     }
 
     public ArrayList<Spells> getSpells() {
-        return spells;
+        return spellsArrayList;
     }
 
     public double getSpellDamage(int index){
-        return spells.get(index).getDamage();
+        return spellsArrayList.get(index).getDamage();
     }
 
     public double getCreatureHealth() {
