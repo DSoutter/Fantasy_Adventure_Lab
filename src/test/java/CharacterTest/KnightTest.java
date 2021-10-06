@@ -1,6 +1,7 @@
 package CharacterTest;
 
 import Character.Melee.Knight;
+import Character.Melee.WeaponType;
 import org.junit.Before;
 import org.junit.Test;
 
@@ -12,7 +13,7 @@ public class KnightTest {
 
     @Before
     public void before(){
-        knight = new Knight("Sofia", 300.00, 100.00);
+        knight = new Knight("Sofia", 300.00, WeaponType.BATTLEAXE, 100.00);
     }
 
     @Test

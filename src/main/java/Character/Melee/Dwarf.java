@@ -1,12 +1,12 @@
 package Character.Melee;
 import Character.Character;
 
-public class Dwarf extends Character {
+public class Dwarf extends Melee {
 
     private double hitChance;
 
-    public Dwarf(String name, double health, double hitChance) {
-        super(name, health);
+    public Dwarf(String name, double health, WeaponType weaponType, double hitChance) {
+        super(name, health, weaponType);
         this.hitChance = hitChance;
     }
 

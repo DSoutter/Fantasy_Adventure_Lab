@@ -1,6 +1,7 @@
 package CharacterTest;
 
 import Character.Melee.Barbarian;
+import Character.Melee.WeaponType;
 import org.junit.Before;
 import org.junit.Test;
 
@@ -12,7 +13,7 @@ public class BarbarianTest {
 
     @Before
     public void before(){
-        barbarian = new Barbarian("Thor", 200.00, 1.25);
+        barbarian = new Barbarian("Thor", 200.00, WeaponType.AXE, 1.25);
     }
 
     @Test

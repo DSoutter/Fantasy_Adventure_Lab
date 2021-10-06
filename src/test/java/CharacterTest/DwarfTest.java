@@ -1,6 +1,7 @@
 package CharacterTest;
 
 import Character.Melee.Dwarf;
+import Character.Melee.WeaponType;
 import org.junit.Before;
 import org.junit.Test;
 
@@ -12,7 +13,7 @@ public class DwarfTest {
 
     @Before
     public void before(){
-        dwarf = new Dwarf("Bert", 200.00, 0.8);
+        dwarf = new Dwarf("Bert", 200.00, WeaponType.AXE, 0.8);
 
     }
 
