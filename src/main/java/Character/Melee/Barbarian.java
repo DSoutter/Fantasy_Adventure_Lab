@@ -14,6 +14,10 @@ public class Barbarian extends Melee {
         return damageMultiplier;
     }
 
+    public double getWeaponDamage(){
+        return damageMultiplier*weaponType.getDamage();
+    }
+
     public void changeItem() {
 
     }

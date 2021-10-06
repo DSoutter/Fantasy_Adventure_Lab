@@ -20,4 +20,9 @@ public class KnightTest {
     public void knightHasArmour(){
         assertEquals(100.00, knight.getArmour(),0.01);
     }
+
+    @Test
+    public void knightHasWeaponDamage(){
+        assertEquals(200.00, knight.getWeaponDamage(), 0.01);
+    }
 }

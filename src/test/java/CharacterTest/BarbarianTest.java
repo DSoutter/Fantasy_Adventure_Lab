@@ -20,4 +20,9 @@ public class BarbarianTest {
     public void babaHasDamageMultiplier(){
         assertEquals(1.25, barbarian.getDamageMultiplier(), 0.01);
     }
+
+    @Test
+    public void babaHasWeaponDamage(){
+        assertEquals(187.5, barbarian.getWeaponDamage(), 0.01);
+    }
 }
